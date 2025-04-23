@@ -1,0 +1,6 @@
+node_modules
+vector_store
+venv
+.env
+__pycache__
+ollama

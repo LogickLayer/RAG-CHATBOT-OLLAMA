@@ -1,0 +1,12 @@
+beautifulsoup4
+fastapi 
+uvicorn 
+langchain 
+langchain-community
+openai 
+faiss-cpu
+huggingface_hub
+requests
+sentence-transformers
+tiktoken
+pypdf
