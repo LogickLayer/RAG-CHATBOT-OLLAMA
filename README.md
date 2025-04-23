@@ -71,9 +71,9 @@ Frontend will run at http://localhost:5173.
 ## Sample API call
 
 ``` bash 
-curl -X POST http://localhost:8000/chat \
+curl -X POST http://localhost:8000/ask \
   -H "Content-Type: application/json" \
-  -d '{"question": "What is RAG?", "history": []}'
+  -d '{"question": "How to open demat account?"}'
   ```
 
 ---

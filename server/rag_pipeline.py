@@ -41,7 +41,7 @@ def get_all_links(base_url, visited=None, depth=2):
 def create_vectorstore():
     print("Loading PDFs...")
     
-    pdf_loader = DirectoryLoader("./data/customer_support_docs/Insurance PDFs", glob="**/*.pdf", loader_cls=PyPDFLoader)
+    pdf_loader = DirectoryLoader("./server/data/customer_support_docs/Insurance PDFs", glob="**/*.pdf", loader_cls=PyPDFLoader)
     pdf_docs = pdf_loader.load()
 
     print("pdf_docs", pdf_docs)
